@@ -1,0 +1,45 @@
+/* clearfix 기본 설정 */
+.cf::after,
+.clearfix::after,
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float01 {
+    padding: 100px 0;
+}
+
+.float01 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.float01 p {
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.float01 .container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #F00;
+    /* overflow: hidden; 간단하게 만들기는 좋음 /권장X */
+}
+
+.float01 .container .con {
+    /* flex없이 가로배치하기 */
+    float: left;
+    background: #ff0;
+}
+
+/* clearfix */
+/* .float01 .container::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
