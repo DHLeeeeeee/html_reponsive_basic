@@ -48,11 +48,3 @@ body {
   line-height: 1;
   color: #444;
 }
-
-.cf::after,
-.clearfix::after,
-.row::after {
-  content: '';
-  display: block;
-  clear: both;
-}
