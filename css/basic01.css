@@ -1,0 +1,11 @@
+.basic {
+  color: #f00;
+  background: #0f0;
+}
+
+@media (max-width: 1200px) {
+  .basic {
+    color: #000;
+    background: #ff0;
+  }
+}
